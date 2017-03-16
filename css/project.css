@@ -1,0 +1,105 @@
+#projectPage{
+  height:100%;
+}
+
+#projectTitle{
+  font-size: 60px;
+}
+
+.row1{
+  width:54%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.goatToGoImage{
+  max-width: 100%;
+}
+
+.bubbleTownImage{
+  max-width: 100%;
+}
+
+.turkeyTumbleImage{
+    max-width: 64%;
+}
+
+.projectDescription{
+  margin-bottom: 5%;
+}
+
+.projectLink{
+  text-decoration: underline;
+}
+
+.middleElement{
+  margin: 0 5%;
+}
+
+.gameFont{
+  font-size: 38px;
+}
+
+.trackleImage{
+  max-width: 100%;
+}
+
+.chatAppImage{
+  max-width: 95%;
+}
+
+.backPanel{
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+}
+/************************************** flip animation *******************************/
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.projectTile{
+  width: 200px;
+  height: 200px;
+}
+
+.back {
+  display: flex;
+}
+
+.front{
+  display: flex;
+}
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}

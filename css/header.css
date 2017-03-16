@@ -1,0 +1,35 @@
+.logo{
+  margin-right: 1%;
+}
+.mylogo{
+  max-width: 50px;
+}
+
+.navbar{
+  font-family: 'Raleway', sans-serif;
+	margin-bottom:-119px;
+	border-radius:0;
+	border:0;
+}
+.navbar-inverse{
+	background-color:transparent;
+}
+.navbar-wrapper .navbar-inverse{
+	height: 109px;
+}
+/** Background colour for collapse and non-collapse **/
+.navbar-wrapper .navbar-collapse{
+	background-color:transparent;
+}
+.navbar .navbar-nav li  a{
+	color:#f2f4f5;
+	font-size:20px;
+}
+.navbar-wrapper .navbar-inverse .links > li > a:hover,
+.navbar-wrapper .navbar-inverse .links > li > a:focus{
+	color:#999798;
+	background-color:transparent;
+}
+.navbar-header{
+	padding-top:12px;
+}

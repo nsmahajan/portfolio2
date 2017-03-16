@@ -1,0 +1,43 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  margin:0 auto;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color: #010000;
+}
+
+#container {
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  padding:0;
+  background-image: url("portfolio/Assets/Graphics/background.jpg");
+}
+
+#contentArea{
+  height: 506px;
+  margin-top: 70px;
+}
+
+.floatLeft{
+  float: left;
+}
+
+.dancingFont{
+  font-family: 'Dancing Script', cursive;
+}
+
+.whiteTextColor{
+  color:#fff;
+}
+
+.textAlignCenter{
+  text-align: center;
+}
+
+.autoMargin{
+  margin:auto;
+}

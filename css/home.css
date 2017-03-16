@@ -1,0 +1,25 @@
+#homePage{
+  height:100%;
+  display: flex;
+}
+
+#centerElements{
+  display: inline-block;
+  margin: auto;
+}
+
+#myName{
+  font-size: 50px;
+}
+
+.myphoto{
+      max-width: 200px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.resumeLink{
+  text-decoration: underline;
+}
