@@ -21,5 +21,6 @@
 }
 
 .resumeLink{
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 30px;
 }
